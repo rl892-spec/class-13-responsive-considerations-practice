@@ -13,7 +13,7 @@
 /* assignments. Write your own code from scratch to help you learn it.         */
 
 /* -------------------------------------- */
-/* Fonts - add google font @import and font-family snippets here for future use 
+/* Fonts - add google font @import and font-family snippets here for future use
 
 */
 
@@ -124,12 +124,12 @@ nav menu li a:hover {
 
 .highlight-events, .highlight-attractions {
   background-color: #efece5;
-  color: #000000;  
+  color: #000000;
 }
 
 .highlight-animals, .highlight-directions{
   background-color: #ecd7a7;
-  color: #000000;  
+  color: #000000;
 }
 
 .button {
@@ -232,7 +232,7 @@ iframe.ratio-16x9 {
     display: block;
     width: 100%;
     padding: 0.5em;
-    border-left: 8px solid #efece5; 
+    border-left: 8px solid #efece5;
   }
 
   nav menu li a:hover {
@@ -260,12 +260,78 @@ iframe.ratio-16x9 {
 /* -------------------------------------- */
 /* Dark Mode */
 
-/* TODO: add dark mode media query and styles here */
+@media (prefers-color-scheme: dark) {
+    html {
+    background-color: #1f1f1f;
+    color: #f0f0f0;
+  }
+
+  body {
+    background-color: #1f1f1f;
+    color: #f0f0f0;
+  }
+
+  h1,
+  h2,
+  a {
+  color: #f0f0f0;
+  }
+
+  nav menu li a {
+  color: #f0f0f0;
+  border-bottom: 8px solid #181818;
+  }
+
+  nav menu li a:hover {
+  background-color: #333333;
+  border-bottom: 8px solid #2f7668;
+  color: #ffffff;
+  }
+
+  .left-column, .right-column {
+    background-color: #232323;
+    color: #f0f0f0;
+  }
+
+  .logo img {
+  filter: brightness(0.9) contrast(1.1);
+  }
+
+  .highlight-welcome {
+    background-color: #893820;
+    color: #f0f0f0;
+  }
+
+  .highlight-about {
+    background-color: #22304a;
+    color: #f0f0f0;
+  }
+
+  .highlight-events, .highlight-attractions {
+    background-color: #251b02;
+    color: #f0f0f0;
+  }
+
+  .highlight-animals, .highlight-directions {
+    background-color: #795603;
+    color: #f0f0f0;
+  }
+
+  .readable {
+  background-color: #232323;
+  color: #f0f0f0;
+  }
+
+  .button {
+  background-color: #338c7a;
+  color: #f0f0f0;
+  }
+
+
+}
 
 
 /* -------------------------------------- */
 /* touchable buttons */
 
 /* TODO: add touchable button styles here */
-
-
